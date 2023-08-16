@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Condensed:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/STYLES/index.css">
+    <title>fly2india</title>
+</head>
+
+<body>
+    <div class="pagecontainer">
+
+       <!-- header start here -->
+       <div class="topnav" id="myTopnav">
+        <a href="index.html" id="main">Fly2India</a>
+           <a href="index.html" class="active">Home</a>
+           <a href="packages.html">Packages</a>
+           <a href="contact-us.html">Contact</a>
+           <a href="about-us.html">About Us</a>
+           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+               <i class="fa fa-bars"></i>
+           </a>
+       </div>
+   <!-- header end here -->
+
+        <!-- banner image here -->
+        <img class="bannerImage" src="/images/banner/banner.jpg" alt="">
+        <!-- banner image end here -->
+        <!-- hover icons under banner for page pointer -->
+        <div class="container" id="navigationContainer">
+            <div class="row">
+                <div class="col-3 ItenaryNavigation"><span id="ItenaryNavigationText">Trending Packages</span></div>
+                <div class="col-3 ItenaryNavigation"><span id="ItenaryNavigationText">Delhi</span></div>
+                <div class="col-3 ItenaryNavigation"><span id="ItenaryNavigationText">Jaipur </span></div>
+                <div class="col-3 ItenaryNavigation"><span id="ItenaryNavigationText">Agra</span></div>
+            </div>
+        </div>
+        <!-- hover icons under banner for page pointer -->
+
+        <!-- itenary images -->
+        <div class="container">
+            <div class="row">
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col-4"><img class="packagesImage" src="/images/cards/card1.jpg" alt="">
+                            <span>Everest Base Camp</span>
+                            <span>14 Nights/15Days</span></div>
+                        <div class="col-4"><img class="packagesImage" src="/images/cards/card2.jpg" alt="">
+                            <span>Everest Base Camp</span>
+                            <span>14 Nights/15Days</span></div>
+                        <div class="col-4"><img class="packagesImage" src="/images/cards/card3.jpg" alt="">
+                            <span>Everest Base Camp</span>
+                            <span>14 Nights/15Days</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4"><img class="packagesImage" src="/images/cards/card1.jpg" alt="">
+                            <span>Everest Base Camp</span>
+                            <span>14 Nights/15Days</span></div>
+                        <div class="col-4"><img class="packagesImage" src="/images/cards/card2.jpg" alt="">
+                            <span>Everest Base Camp</span>
+                            <span>14 Nights/15Days</span></div>
+                        <div class="col-4"><img class="packagesImage" src="/images/cards/card3.jpg" alt="">
+                            <span>Everest Base Camp</span>
+                            <span>14 Nights/15Days</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4"><img class="packagesImage" src="/images/cards/card1.jpg" alt="">
+                            <span>Everest Base Camp</span>
+                            <span>14 Nights/15Days</span></div>
+                        <div class="col-4"><img class="packagesImage" src="/images/cards/card2.jpg" alt="">
+                            <span>Everest Base Camp</span>
+                            <span>14 Nights/15Days</span></div>
+                        <div class="col-4"><img class="packagesImage" src="/images/cards/card3.jpg" alt="">
+                            <span>Everest Base Camp</span>
+                            <span>14 Nights/15Days</span></div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <form class="itenaryForm">
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect1">Select Package</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>Select Package</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Name</label>
+                                    <input type="name" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Departure Date</label>
+
+                                    <input type="date" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Date">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Mobile Number</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Mob.No">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Query</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                        placeholder="Write your query here"></textarea>
+                                </div>
+                                <div class="formButton">
+                                    <input type="submit" id="submit_form" name="Enquire Now" value="Enquire Now"
+                                        style="padding: 5px 10px 5px 10px;">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- itenary images -->
+        <!-- fotter upper part -->
+        
+         <!-- fotter upper part -->
+
+
+
+        <!-- footer start here -->
+        <footer id="footer">
+            <div class="footerbottom mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-3 footerText">
+                            <h2>OUR SERVICES</h2>
+                            <ul id="filters" class="nav justify-content-center">
+                                <li class="nav-item footerItems">
+                                    <a class="nav-link" href="#">Trending Packages</a>
+                                </li>
+                                <li class="nav-item footerItems">
+                                    <a class="nav-link" href="#">Delhi/ Jaipur/ Agra</a>
+                                </li>
+                                <li class="nav-item footerItems mb-2">
+                                    <a class="nav-link" href="#">Jaipur/ Agra Surface</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-3 footerText">
+                            <h2>ABOUT US</h2>
+                            <ul id="filters" class="nav justify-content-center">
+                                <li class="nav-item footerItems aboutUsFooter">
+                                    <a class="nav-link" href="#">Aboutfly2india</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-3 footerText">
+                            <h2>Travel Facilities</h2>
+                            <ul id="filters" class="nav justify-content-center">
+                                <li class="nav-item footerItems">
+                                    <a class="nav-link" href="#">Trending Packages</a>
+                                </li>
+                                <li class="nav-item footerItems">
+                                    <a class="nav-link" href="#">Delhi/ Jaipur/ Agra</a>
+                                </li>
+                                <li class="nav-item footerItems">
+                                    <a class="nav-link" href="#">Jaipur/ Agra Surface</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-3 footerText">
+                            <h2>Contact Us</h2>
+                            <ul id="filters" class="nav justify-content-center">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.linkedin.com/in/gagandeep-singh-kalsi-b41a7921a"><i class="fa fa-linkedin-square"
+                                            aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.facebook.com/golu.kalsi.3"><i class="fa fa-facebook-square"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://instagram.com/_gagan_deep_76"><i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://github.com/gaganpb06"><i class="fa fa-github" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">Copyright @ 2023 fly2india All Right Reserved.</div>
+        </footer>
+        <!-- footer end here -->
+
+
+
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="/JS/index.js"></script>
+</body>
+
+</html>
